@@ -1,0 +1,56 @@
+.nav-link{
+    color: rgb(0, 0, 0);
+    
+}
+.nav-link:hover{
+    color: rgb(231, 4, 231);
+}
+
+h1{
+    margin-top: auto;
+}
+h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+.col{
+    width: 600px;
+}
+#div2, #div4 {
+    margin-left: auto;
+    margin-right: 0;
+}
+#div1, #div3 {
+    margin-left: 0;
+    margin-right: auto;
+}
+#cimer{
+    width: 800px;
+    height: 800px;  
+}
+.container-fluid{
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+body{
+    background-image: url(backgmain2.png);
+    background-repeat:repeat;
+    background-size: auto;
+    background-position: center;
+    background-position-y:200px;
+
+    
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
