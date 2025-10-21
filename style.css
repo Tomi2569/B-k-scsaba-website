@@ -37,8 +37,8 @@ h2{
     height: 800px;  
 }
 .container-fluid{
-    background-color: blueviolet;
-    border-color: blueviolet;
+    background-color: rgb(165, 85, 240);
+    border-color: rgb(165, 85, 240);
 }
 body{
     background-image: url(backgmain2.png);
@@ -54,3 +54,46 @@ body{
     padding: 0;
     border: none;
 }
+p{
+    text-align: justify;
+}
+.ipar{
+    color: #fb6f92;
+    text-decoration: none;
+    font-weight: bold;
+}
+.timeline {
+      position: relative;
+      padding: 1rem 0;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 20px;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: rgba(0,0,0,0.1);
+    }
+    .timeline-item {
+      position: relative;
+      padding: 0.75rem 1rem 0.75rem 3.5rem;
+      margin-bottom: 1rem;
+    }
+    .timeline-marker {
+      position: absolute;
+      left: 12px;
+      top: 0.9rem;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #ea49ff;
+      box-shadow: 0 0 0 4px rgba(13,110,253,0.08);
+    }
+    .btn{
+        background: #ea49ff;
+        border: #a519b8;
+    }
+    .btn:hover{
+        background: #a519b8;
+    }
