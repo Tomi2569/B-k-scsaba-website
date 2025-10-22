@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Békéscsaba</title>
     <link rel="icon" type="png" href="bcs logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+</head>
+<body>
 </head>
 
 <body>
@@ -72,45 +75,71 @@
     </div>
   </div>
 </nav>
-
-<div class="container my-5">
-    <h2 class="text-center mb-4">Általános információ</h2>
-    <div class="row row-cols-1 g-4">
-        <div class="d-flex justify-content-start col" id="div1">
-            <div class="card h-100">
-                <img src="varosikep.jpg" class="card-img-top" alt="Item 1">
-                <div class="card-body">
-                    <p class="card-text">Békéscsaba egy békés, alföldi város Magyarország délkeleti részén. Békés vármegye székhelye, és egy közepes méretű településnek számít, ahol nagyjából ötvennyolcezren élnek. A város sík vidéken fekszik, sok zöldterülettel, parkokkal és fákkal szegélyezett utcákkal. A környezet nyugodt, a forgalom nem túl erős, így sokan választják lakóhelynek azok közül, akik csendesebb életre vágynak.</p>
-                </div>
-            </div>
-        </div>
-        <div class="d-flex justify-content-end col" id="div2">
-            <div class="card h-100">
-                <img src="varosikep2.jpg" class="card-img-top" alt="Item 1">
-                <div class="card-body">
-                    <p class="card-text">A város központja rendezett, a főtér környékén több régi épület, templom és kulturális intézmény is található. A városban jól kiépített kerékpárutak vannak, és a közlekedés egyszerű, mind gyalogosan, mind tömegközlekedéssel. A vasútvonal miatt Békéscsaba fontos állomás a kelet-magyarországi közlekedésben, különösen Románia irányába.</p>
-                </div>
-            </div>
-        </div>
-        <div class="d-flex justify-content-start col" id="div3">
-            <div class="card h-100">
-                <img src="varosikep3.jpg" class="card-img-top" alt="Item 1">
-                <div class="card-body">
-                    <p class="card-text">Békéscsaba egy olyan hely, ahol a hétköznapi élet viszonylag nyugodt tempóban zajlik. Az emberek ismerik egymást, sok a családi ház, és általában jellemző a közösségi hangulat. Bár nem egy nagyváros, van benne minden, amire szükség lehet: iskolák, üzletek, sport- és szabadidős lehetőségek, kulturális programok. A helyiek büszkék a hagyományaikra, és időről időre megrendeznek kisebb-nagyobb eseményeket, ahol a közösség együtt ünnepel.</p>
-                </div>
-            </div>
-        </div>
-         <div class="d-flex justify-content-end col" id="div4">
-            <div class="card h-100">
-                <img src="varosikep4.jpg" class="card-img-top" alt="Item 1">
-                <div class="card-body">
-                    <p class="card-text">Összességében Békéscsaba egy csendes, élhető város, ami nem a nyüzsgéséről híres, hanem arról, hogy barátságos, rendezett, és kellemes hely a mindennapokra.</p>
-                </div>
-            </div>
-        </div>
+<div class="container my-5" id="foldalslide">
+<div id="carouselExampleDark" class="carousel carousel-bright slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleBright" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleBright" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleBright" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="foldal2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <TT>
+          <STRONG>
+            <h5>Békéscsabai Páduai Szent Antal-társszékesegyház</h5>
+          </STRONG>
+        </TT>
+        <p>A Békéscsabai Páduai Szent Antal-társszékesegyház egy impozáns, történelmi katolikus templom Békéscsabán, amely a város vallási és kulturális életének központja.</p>
+      </div>
     </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="foldal.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="foldal3.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+
 
 
 <script src="bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
 </body>
+  <footer>
+</svg>
+<div class="container"> <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> <div class="col-md-4 d-flex align-items-center"> <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg class="bi" width="30" height="24" aria-hidden="true">
+  </svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© Botta-Dukát Károly, Czirbuly András, Fodor Tamás Minden jog fentartva </span> </div> <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+
+  <a href="https://www.instagram.com/instagramprofilod/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-danger fs-3" id="insta">
+    <i class="bi bi-instagram"></i>
+  </a>
+  <a href="https://www.instagram.com/instagramprofilod/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-danger fs-3" id="insta">
+    <i class="bi bi-instagram"></i>
+  </a>
+  <a href="https://www.instagram.com/instagramprofilod/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-danger fs-3" id="insta">
+    <i class="bi bi-instagram"></i>
+  </a>
+
+  </footer> </div>
+  </footer>
 </html>
