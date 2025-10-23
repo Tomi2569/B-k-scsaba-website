@@ -181,3 +181,28 @@ p{
     display: flex;
     justify-content: center;
 }
+.parallax-section {
+  height: 600px; 
+  position: relative; 
+  overflow: hidden;
+  background-image: url('term6.jpg'); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.parallax-content {
+    position: relative;
+    z-index: 2;
+    padding: 150px 20px;
+    background: rgba(0, 0, 0, 0.4); 
+}
+
+.parallax-content h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+}

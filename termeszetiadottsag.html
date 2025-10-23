@@ -12,8 +12,15 @@
 
 <body>
 <nav class="navbar bg-body-tertiary fixed-top">
-  <div class="container-fluid">
-    <h1><a class="navbar-brand" href="#">Békéscsaba</a></h1>
+    <div class="container-fluid">
+    <a href="csaba.html" rel="noopener noreferrer" class="text-decoration-none  fs-3" id="home" style="color: beige;">
+    <i class="bi bi-house-fill"></i>
+    </a>
+    <strong>
+      <tt>
+        <h1><a class="navbar-brand" href="#">Békéscsaba</a></h1>
+      </tt>
+    </strong>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -73,41 +80,62 @@
     </div>
   </div>
 </nav>
-
-
+<div class="parallax-section">
+  <div class="parallax-content">
+    <h1>Természeti adottságok</h1>
+  </div>
+</div>
 <div class="container my-5">
-    <h2 class="text-center mb-4">Természeti adottságok</h2>
     <div class="row row-cols-1 g-4">
 
         
-        <div class="d-flex justify-content-start col" id="div1">
+        <div class="d-flex justify-content-start col" id="div1" style="padding-top: 75px;">
             <div class="card h-100">
                 <img src="term4.jpg" class="card-img-top" alt="Körös-vidék">
                 <div class="card-body">
                     <p class="card-text">
-                        Békéscsaba az Alföld egyik leglaposabb térségében fekszik, a Körös-vidék részeként. A sík felszín miatt a város és környéke különösen alkalmas mezőgazdasági művelésre, valamint kerékpározásra és kirándulásra.
+                        Békéscsaba az Alföld egyik <span class="ipar">leglaposabb</span> térségében fekszik, a Körös-vidék részeként. A sík felszín miatt a város és környéke különösen alkalmas <span class="ipar">mezőgazdasági</span> művelésre, valamint kerékpározásra és kirándulásra.
                     </p>
                 </div>
             </div>
         </div>
 
-        <div class="d-flex justify-content-end col" id="div2">
+        <div class="d-flex justify-content-end col" id="div2" style="padding-top: 75px;">
             <div class="card h-100">
                 <img src="term1.jpg" class="card-img-top" alt="Fás-ligetes környezet">
                 <div class="card-body">
                     <p class="card-text">
-                        A várost sok zöldterület, liget és park övezi. A fás-ligetes környezet nyáron kellemes klímát biztosít, és sok helyi lakos tölti idejét szabadtéri sétával vagy piknikezéssel a zöldterületeken.
+                        A várost sok zöldterület, liget és park övezi. A <span class="ipar">fás-ligetes</span> környezet nyáron kellemes klímát biztosít, és sok helyi lakos tölti idejét szabadtéri sétával vagy piknikezéssel a zöldterületeken.
                     </p>
                 </div>
             </div>
         </div>
+        
+
+  <div class="highlight-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center content-container">
+                <h2 class="fw-bold mb-4 text-uppercase">
+                   Békéscsaba<span style="color: #dc35a4;"> Természeti adottságai</span>
+                </h2>
+                
+                <p class="lead text-muted-dark px-lg-5 mx-lg-5">
+                  Békéscsaba természeti adottságai közé tartozik a <span class="ipar">Körös–Maros</span> közelében fekvő sík alföldi táj, amely kiváló termőfölddel és gazdag mezőgazdasági hagyományokkal rendelkezik. A város környékén több parkerdő, ligetes terület és vízfolyás található, amelyek fontos élőhelyet biztosítanak a helyi állat- és növényvilágnak.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
         <div class="d-flex justify-content-start col" id="div3">
             <div class="card h-100">
                 <img src="term3.jpg" class="card-img-top" alt="Élővilág és vizes élőhelyek">
                 <div class="card-body">
                     <p class="card-text">
-                        A környék vizes élőhelyei gazdag madárvilágnak adnak otthont. A közeli tavak és folyóágak kedvelt helyei a természetbarátoknak és a horgászoknak, és számos túraútvonal is vezet ezekhez a területekhez.
+                        A környék vizes élőhelyei gazdag madárvilágnak adnak otthont. A közeli tavak és folyóágak kedvelt helyei a természetbarátoknak és a horgászoknak, és számos <span class="ipar">túraútvonal</span> is vezet ezekhez a területekhez.
                     </p>
                 </div>
             </div>
@@ -118,7 +146,7 @@
                 <img src="term5.jpg" class="card-img-top" alt="taj">
                 <div class="card-body">
                     <p class="card-text">
-                        Az alföldi táj szépsége egyszerűségében rejlik: a messze nyúló mezők, a naplementék és a nyári viharok látványa különleges hangulatot ad a város környékének. A természet közelsége sokak számára fontos érték.
+                        Az alföldi táj szépsége <span class="ipar">egyszerűségében</span> rejlik: a messze nyúló mezők, a <span class="ipar">naplementék</span> és a nyári viharok látványa különleges hangulatot ad a város környékének. A természet közelsége sokak számára fontos érték.
                     </p>
                 </div>
             </div>
@@ -142,7 +170,7 @@
 
   </footer> </div>
   </footer>
-
+<script src="header.js"></script>
 <script src="bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
