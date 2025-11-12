@@ -190,9 +190,7 @@ p{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
-
 .parallax-content {
     position: relative;
     z-index: 2;
@@ -201,6 +199,48 @@ p{
 }
 
 .parallax-content h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+}
+.lapozo{
+    height: 650px;
+}
+.categories_grid1 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.lapozo {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  transform-origin: center;
+}
+.categories_grid1 .lapozo:hover {
+  transform: scaleX(1.2);
+  filter: brightness(1);
+  z-index: 2;
+}
+.parallax-section2 {
+  height: 600px; 
+  position: relative; 
+  overflow: hidden;
+  background-image: url('gyulavár.jpg'); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.parallax-content1 {
+    position: relative;
+    z-index: 2;
+    padding: 150px 20px;
+    background: rgba(0, 0, 0, 0.4); 
+}
+
+.parallax-content1 h1 {
     color: #ffffff;
     text-align: center;
     font-size: 4em;
